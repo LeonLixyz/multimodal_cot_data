@@ -1,0 +1,19 @@
+# Ignore embedded git repositories
+raw_cot/3d_reasoning/cg-multimodal-dataset/
+raw_cot/3d_reasoning/clevr-math/
+raw_cot/VisualSketchpad/
+
+# Common files to ignore
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.ipynb_checkpoints 

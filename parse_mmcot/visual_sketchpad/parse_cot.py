@@ -9,7 +9,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.utils import ImageReader
 from io import BytesIO
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="your_api_key")
 
 def image_to_base64(image_path):
     """Convert an image file to base64 encoded string."""
