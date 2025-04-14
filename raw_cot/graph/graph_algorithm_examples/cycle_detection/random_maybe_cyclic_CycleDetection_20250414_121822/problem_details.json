@@ -1,0 +1,77 @@
+{
+  "problem_description": "Apply CycleDetection to a random_maybe_cyclic graph. Nodes: 8, Edges: 7.",
+  "algorithm": "CycleDetection",
+  "graph_type": "random_maybe_cyclic",
+  "num_nodes": 8,
+  "num_edges": 7,
+  "is_directed": false,
+  "seed_used": 5343,
+  "image_files": [
+    "step_001.png",
+    "step_002.png",
+    "step_003.png",
+    "step_004.png",
+    "step_005.png"
+  ],
+  "solution_summary": {
+    "start_node": null,
+    "result": [
+      7,
+      0
+    ],
+    "has_cycle": true
+  },
+  "graph_data": {
+    "adjacency_list": {
+      "0": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "1": [
+        0,
+        7
+      ],
+      "2": [
+        4,
+        6
+      ],
+      "3": [
+        0
+      ],
+      "4": [
+        2
+      ],
+      "5": [
+        0
+      ],
+      "6": [
+        2
+      ],
+      "7": [
+        0,
+        1
+      ]
+    },
+    "weighted_adjacency_list": null
+  },
+  "visualization_settings": {
+    "layout": "spring",
+    "theme": "light",
+    "node_shape": "circle",
+    "palette": {
+      "node": "#89c4ed",
+      "visited": "#c11c9f",
+      "current": "#a3a518",
+      "edge": "#bfc6ca",
+      "path": "#7df431",
+      "cycle": "#FF6347",
+      "mst_edge": "#7df431",
+      "recursion_stack": "#ADD8E6"
+    },
+    "edge_style": "solid",
+    "size_by_degree": false,
+    "color_edges_by_weight": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "task_type": "fractal_cutout",
+  "difficulty": "medium",
+  "num_pieces": 1,
+  "shape_types": [
+    "star"
+  ],
+  "original_image": "original.jpg",
+  "masked_image": "masked_image.jpg",
+  "options": [
+    "option_A.png",
+    "option_B.png",
+    "option_C.png",
+    "option_D.png"
+  ],
+  "correct_indices": [
+    1
+  ],
+  "correct_options": [
+    "B"
+  ],
+  "cutout_info": [
+    {
+      "cutout_bounds": {
+        "x": 3232,
+        "y": 2269,
+        "width": 873,
+        "height": 931
+      },
+      "base_params": {
+        "x": 3614,
+        "y": 2743,
+        "size": 972
+      }
+    }
+  ],
+  "parameters": {
+    "complexity": 3,
+    "irregularity": 0.3,
+    "smoothing": 0.5
+  },
+  "distractor_strategies": [
+    "different_seed",
+    "correct",
+    "boundary_modify",
+    "transform"
+  ]
+}

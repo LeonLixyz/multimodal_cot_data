@@ -1,0 +1,31 @@
+{
+  "problem": "Simulate Environment Comparison with the given parameters.",
+  "images": [
+    "environment_comparison.png"
+  ],
+  "solution": {
+    "initial_conditions": {
+      "initial_velocity": 32.4372394047763,
+      "launch_angle": 33.92493583265837,
+      "environments": [
+        "moon",
+        "mars"
+      ]
+    }
+  },
+  "visualization": {
+    "color_scheme": "contrast",
+    "theme": "dark",
+    "line_style": "solid",
+    "marker_style": "circle",
+    "show_annotations": true,
+    "show_grid": true,
+    "show_forces": true
+  },
+  "environment": {
+    "type": "earth",
+    "gravity": 9.8,
+    "air_resistance": false,
+    "drag_coefficient": null
+  }
+}

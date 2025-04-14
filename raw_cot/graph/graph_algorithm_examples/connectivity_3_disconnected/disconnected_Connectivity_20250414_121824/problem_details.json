@@ -1,0 +1,84 @@
+{
+  "problem_description": "Apply Connectivity to a disconnected graph. Nodes: 8, Edges: 2.",
+  "algorithm": "Connectivity",
+  "graph_type": "disconnected",
+  "num_nodes": 8,
+  "num_edges": 2,
+  "is_directed": false,
+  "seed_used": 8822,
+  "image_files": [
+    "step_001_adj_matrix.png",
+    "step_002.png",
+    "step_003.png"
+  ],
+  "solution_summary": {
+    "start_node": null,
+    "result": {
+      "is_connected": false,
+      "components": [
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "is_strongly_connected": false,
+      "num_components": 6,
+      "num_strongly_connected_components": 6,
+      "num_weakly_connected_components": 6
+    }
+  },
+  "graph_data": {
+    "adjacency_list": {
+      "0": [
+        6
+      ],
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [
+        0,
+        7
+      ],
+      "7": [
+        6
+      ]
+    },
+    "weighted_adjacency_list": null
+  },
+  "visualization_settings": {
+    "layout": "spring",
+    "theme": "light",
+    "node_shape": "circle",
+    "palette": {
+      "node": "#f69bb0",
+      "visited": "#64d112",
+      "current": "#1290da",
+      "edge": "#e4dedf",
+      "path": "#5c61f6",
+      "cycle": "#FF6347",
+      "mst_edge": "#5c61f6",
+      "recursion_stack": "#ADD8E6"
+    },
+    "edge_style": "solid",
+    "size_by_degree": false,
+    "color_edges_by_weight": false
+  }
+}

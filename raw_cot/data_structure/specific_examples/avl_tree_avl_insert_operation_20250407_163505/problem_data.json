@@ -1,0 +1,30 @@
+{
+  "problem": "Apply the AVL Insert operation on the avl_tree.",
+  "images": [
+    "step1.png",
+    "step2.png",
+    "step3.png",
+    "step4.png",
+    "step5.png",
+    "step6.png",
+    "step7.png",
+    "step8.png",
+    "step9.png",
+    "step10.png",
+    "step11.png"
+  ],
+  "solution": {
+    "operation": "AVL Insert",
+    "result": {
+      "key": 25,
+      "result": "success"
+    },
+    "visualization": {
+      "color_scheme": "contrast",
+      "node_shape": "triangle",
+      "edge_style": "solid",
+      "theme": "light",
+      "show_details": true
+    }
+  }
+}

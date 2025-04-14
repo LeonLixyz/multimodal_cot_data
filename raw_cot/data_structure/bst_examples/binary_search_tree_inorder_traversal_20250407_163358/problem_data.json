@@ -1,0 +1,69 @@
+{
+  "problem": "Apply the Inorder Traversal operation on the binary_search_tree.",
+  "images": [
+    "step1.png",
+    "step2.png",
+    "step3.png",
+    "step4.png",
+    "step5.png",
+    "step6.png",
+    "step7.png",
+    "step8.png",
+    "step9.png",
+    "step10.png",
+    "step11.png",
+    "step12.png",
+    "step13.png",
+    "step14.png",
+    "step15.png",
+    "step16.png",
+    "step17.png",
+    "step18.png",
+    "step19.png",
+    "step20.png",
+    "step21.png",
+    "step22.png",
+    "step23.png",
+    "step24.png",
+    "step25.png",
+    "step26.png",
+    "step27.png",
+    "step28.png",
+    "step29.png",
+    "step30.png",
+    "step31.png",
+    "step32.png",
+    "step33.png",
+    "step34.png",
+    "step35.png",
+    "step36.png",
+    "step37.png",
+    "step38.png"
+  ],
+  "solution": {
+    "operation": "Inorder Traversal",
+    "result": {
+      "order": [
+        3,
+        14,
+        15,
+        19,
+        28,
+        37,
+        42,
+        49,
+        74,
+        76,
+        78,
+        80
+      ]
+    },
+    "visualization": {
+      "color_scheme": "default",
+      "node_shape": "circle",
+      "edge_style": "solid",
+      "theme": "light",
+      "show_details": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "problem": "Simulate Air Resistance Comparison with the given parameters.",
+  "images": [
+    "air_resistance_comparison.png"
+  ],
+  "solution": {
+    "initial_conditions": {
+      "initial_velocity": 50,
+      "launch_angle": 45
+    },
+    "no_air_resistance": {
+      "horizontal_range": 255.26554800834364,
+      "max_height": 63.7754840041718
+    },
+    "with_air_resistance": {
+      "horizontal_range": 10.904717678287865,
+      "max_height": 5.669969869094661,
+      "drag_coefficient": 0.2
+    },
+    "comparison": {
+      "range_reduction": 244.3608303300558,
+      "range_reduction_percent": 95.72808874391015,
+      "height_reduction": 58.105514135077144,
+      "height_reduction_percent": 91.10948359290576
+    }
+  },
+  "visualization": {
+    "color_scheme": "contrast",
+    "theme": "light",
+    "line_style": "solid",
+    "marker_style": "circle",
+    "show_annotations": true,
+    "show_grid": true,
+    "show_forces": true
+  },
+  "environment": {
+    "type": "earth",
+    "gravity": 9.8,
+    "air_resistance": true,
+    "drag_coefficient": 0.2
+  }
+}

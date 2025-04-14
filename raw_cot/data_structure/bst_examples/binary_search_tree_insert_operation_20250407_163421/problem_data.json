@@ -1,0 +1,23 @@
+{
+  "problem": "Apply the Insert operation on the binary_search_tree.",
+  "images": [
+    "step1.png",
+    "step2.png",
+    "step3.png",
+    "step4.png"
+  ],
+  "solution": {
+    "operation": "Insert",
+    "result": {
+      "key": 28,
+      "result": "success"
+    },
+    "visualization": {
+      "color_scheme": "monochrome",
+      "node_shape": "square",
+      "edge_style": "dashed",
+      "theme": "light",
+      "show_details": true
+    }
+  }
+}

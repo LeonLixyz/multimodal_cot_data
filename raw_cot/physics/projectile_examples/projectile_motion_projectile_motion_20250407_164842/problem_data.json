@@ -1,0 +1,47 @@
+{
+  "problem": "Simulate Projectile Motion with the given parameters.",
+  "images": [
+    "initial_conditions.png",
+    "velocity_components.png",
+    "trajectory.png",
+    "kinematics.png",
+    "energy.png",
+    "trajectory_3d.png",
+    "environment_comparison.png"
+  ],
+  "solution": {
+    "initial_conditions": {
+      "initial_velocity": 49.32129928490497,
+      "launch_angle": 56.71553729852115,
+      "initial_height": 0,
+      "environment": "earth",
+      "gravity": 9.8,
+      "air_resistance": true,
+      "drag_coefficient": 0.1
+    },
+    "results": {
+      "max_height": 11.985632721384567,
+      "time_of_flight": 3.1,
+      "horizontal_range": 16.311172941761974,
+      "energy_conservation": false
+    }
+  },
+  "visualization": {
+    "color_scheme": "contrast",
+    "theme": "dark",
+    "line_style": "dotted",
+    "marker_style": "diamond",
+    "show_annotations": true,
+    "show_grid": true,
+    "show_forces": true
+  },
+  "environment": {
+    "type": "earth",
+    "gravity": 9.8,
+    "air_resistance": true,
+    "drag_coefficient": 0.1
+  },
+  "additional_info": {
+    "problem_description": "A projectile is launched  with air resistance from an initial height of 0.0 m with an initial velocity of 49.3 m/s at an angle of 56.7\u00b0 above the horizontal. Find the maximum height reached, the time of flight, and the horizontal range of the projectile."
+  }
+}

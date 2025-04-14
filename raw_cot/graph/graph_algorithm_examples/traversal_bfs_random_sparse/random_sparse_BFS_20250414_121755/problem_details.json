@@ -1,0 +1,103 @@
+{
+  "problem_description": "Apply BFS to a random_sparse graph. Start node: 6. Nodes: 10, Edges: 10.",
+  "algorithm": "BFS",
+  "graph_type": "random_sparse",
+  "num_nodes": 10,
+  "num_edges": 10,
+  "is_directed": false,
+  "seed_used": 5658,
+  "image_files": [
+    "step_001.png",
+    "step_002.png",
+    "step_003.png",
+    "step_004.png",
+    "step_005.png",
+    "step_006.png",
+    "step_007.png",
+    "step_008.png",
+    "step_009.png",
+    "step_010.png",
+    "step_011.png",
+    "step_012.png",
+    "step_013.png",
+    "final_solution.png"
+  ],
+  "solution_summary": {
+    "start_node": 6,
+    "result": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "graph_data": {
+    "adjacency_list": {
+      "0": [
+        4
+      ],
+      "1": [
+        8
+      ],
+      "2": [
+        7
+      ],
+      "3": [
+        4,
+        7
+      ],
+      "4": [
+        0,
+        3,
+        6,
+        8
+      ],
+      "5": [
+        7
+      ],
+      "6": [
+        4,
+        7
+      ],
+      "7": [
+        2,
+        3,
+        5,
+        6,
+        9
+      ],
+      "8": [
+        1,
+        4
+      ],
+      "9": [
+        7
+      ]
+    },
+    "weighted_adjacency_list": null
+  },
+  "visualization_settings": {
+    "layout": "spring",
+    "theme": "light",
+    "node_shape": "circle",
+    "palette": {
+      "node": "#d0e98b",
+      "visited": "#22afb9",
+      "current": "#871c98",
+      "edge": "#dfe0da",
+      "path": "#f65bae",
+      "cycle": "#FF6347",
+      "mst_edge": "#f65bae",
+      "recursion_stack": "#ADD8E6"
+    },
+    "edge_style": "solid",
+    "size_by_degree": false,
+    "color_edges_by_weight": false
+  }
+}

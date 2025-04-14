@@ -1,0 +1,23 @@
+{
+  "problem": "Apply the Heap Insert operation on the max_heap.",
+  "images": [
+    "step1.png",
+    "step2.png",
+    "step3.png",
+    "step4.png"
+  ],
+  "solution": {
+    "operation": "Heap Insert",
+    "result": {
+      "value": 12,
+      "result": "success"
+    },
+    "visualization": {
+      "color_scheme": "colorful",
+      "node_shape": "diamond",
+      "edge_style": "solid",
+      "theme": "dark",
+      "show_details": true
+    }
+  }
+}

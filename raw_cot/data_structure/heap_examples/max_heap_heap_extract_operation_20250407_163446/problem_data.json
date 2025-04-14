@@ -1,0 +1,30 @@
+{
+  "problem": "Apply the Heap Extract operation on the max_heap.",
+  "images": [
+    "step1.png",
+    "step2.png",
+    "step3.png",
+    "step4.png",
+    "step5.png",
+    "step6.png",
+    "step7.png",
+    "step8.png",
+    "step9.png",
+    "step10.png",
+    "step11.png"
+  ],
+  "solution": {
+    "operation": "Heap Extract",
+    "result": {
+      "value": 98,
+      "result": "success"
+    },
+    "visualization": {
+      "color_scheme": "default",
+      "node_shape": "circle",
+      "edge_style": "solid",
+      "theme": "light",
+      "show_details": true
+    }
+  }
+}

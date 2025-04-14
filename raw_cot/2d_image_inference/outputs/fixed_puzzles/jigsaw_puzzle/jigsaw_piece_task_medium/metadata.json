@@ -1,0 +1,101 @@
+{
+  "task_type": "jigsaw_piece",
+  "difficulty": "medium",
+  "num_pieces": 1,
+  "original_image": "original.jpg",
+  "masked_image": "masked_image.jpg",
+  "options": [
+    "option_A.png",
+    "option_B.png",
+    "option_C.png",
+    "option_D.png"
+  ],
+  "correct_indices": [
+    1
+  ],
+  "correct_options": [
+    "B"
+  ],
+  "cutout_info": [
+    {
+      "base_rectangle": {
+        "left": 1176,
+        "top": 1053,
+        "width": 1274,
+        "height": 597
+      },
+      "cutout_bounds": {
+        "x": 923,
+        "y": 934,
+        "width": 1781,
+        "height": 834
+      }
+    }
+  ],
+  "jigsaw_features": [
+    {
+      "top": [
+        {
+          "position": 0,
+          "is_tab": true,
+          "center": 1813,
+          "shape": "medium",
+          "left": 1686,
+          "right": 1940
+        }
+      ],
+      "right": [
+        {
+          "position": 0,
+          "is_tab": true,
+          "center": 1351,
+          "shape": "medium",
+          "top": 1292,
+          "bottom": 1410
+        }
+      ],
+      "bottom": [
+        {
+          "position": 0,
+          "is_tab": true,
+          "center": 1600,
+          "shape": "medium",
+          "left": 1473,
+          "right": 1727
+        },
+        {
+          "position": 1,
+          "is_tab": true,
+          "center": 2025,
+          "shape": "medium",
+          "left": 1898,
+          "right": 2152
+        }
+      ],
+      "left": [
+        {
+          "position": 0,
+          "is_tab": true,
+          "center": 1351,
+          "shape": "medium",
+          "top": 1292,
+          "bottom": 1410
+        }
+      ]
+    }
+  ],
+  "parameters": {
+    "tab_count_range": [
+      1,
+      2
+    ],
+    "tab_size_factor": 0.2,
+    "shape_complexity": "medium"
+  },
+  "distractor_strategies": [
+    "color_shift",
+    "correct",
+    "flip_tabs",
+    "shift"
+  ]
+}

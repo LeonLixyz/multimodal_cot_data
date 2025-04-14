@@ -1,0 +1,48 @@
+{
+  "task_type": "fractal_cutout",
+  "difficulty": "medium",
+  "num_pieces": 1,
+  "shape_types": [
+    "fractal"
+  ],
+  "original_image": "original.jpg",
+  "masked_image": "masked_image.jpg",
+  "options": [
+    "option_A.png",
+    "option_B.png",
+    "option_C.png",
+    "option_D.png"
+  ],
+  "correct_indices": [
+    0
+  ],
+  "correct_options": [
+    "A"
+  ],
+  "cutout_info": [
+    {
+      "cutout_bounds": {
+        "x": 2113,
+        "y": 510,
+        "width": 1592,
+        "height": 1384
+      },
+      "base_params": {
+        "x": 2852,
+        "y": 1170,
+        "size": 972
+      }
+    }
+  ],
+  "parameters": {
+    "complexity": 3,
+    "irregularity": 0.3,
+    "smoothing": 0.5
+  },
+  "distractor_strategies": [
+    "correct",
+    "shift",
+    "different_seed",
+    "boundary_modify"
+  ]
+}

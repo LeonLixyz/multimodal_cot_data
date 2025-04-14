@@ -1,0 +1,53 @@
+{
+  "problem": "Apply the Postorder Traversal operation on the binary_search_tree.",
+  "images": [
+    "step1.png",
+    "step2.png",
+    "step3.png",
+    "step4.png",
+    "step5.png",
+    "step6.png",
+    "step7.png",
+    "step8.png",
+    "step9.png",
+    "step10.png",
+    "step11.png",
+    "step12.png",
+    "step13.png",
+    "step14.png",
+    "step15.png",
+    "step16.png",
+    "step17.png",
+    "step18.png",
+    "step19.png",
+    "step20.png",
+    "step21.png",
+    "step22.png",
+    "step23.png",
+    "step24.png",
+    "step25.png",
+    "step26.png"
+  ],
+  "solution": {
+    "operation": "Postorder Traversal",
+    "result": {
+      "order": [
+        8,
+        3,
+        21,
+        60,
+        34,
+        74,
+        90,
+        70
+      ]
+    },
+    "visualization": {
+      "color_scheme": "colorful",
+      "node_shape": "diamond",
+      "edge_style": "solid",
+      "theme": "dark",
+      "show_details": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "problem": "Apply the Heap Build operation on the min_heap.",
+  "images": [
+    "step1.png",
+    "step2.png",
+    "step3.png",
+    "step4.png",
+    "step5.png",
+    "step6.png",
+    "step7.png",
+    "step8.png",
+    "step9.png",
+    "step10.png",
+    "step11.png",
+    "step12.png",
+    "step13.png",
+    "step14.png",
+    "step15.png",
+    "step16.png"
+  ],
+  "solution": {
+    "operation": "Heap Build",
+    "result": {
+      "initial_values": [
+        30,
+        20,
+        10,
+        15,
+        5,
+        7,
+        3
+      ],
+      "result": "success"
+    },
+    "visualization": {
+      "color_scheme": "colorful",
+      "node_shape": "circle",
+      "edge_style": "solid",
+      "theme": "dark",
+      "show_details": true
+    }
+  }
+}

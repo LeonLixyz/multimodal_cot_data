@@ -1,0 +1,98 @@
+{
+  "image": "dogs.jpg",
+  "seed": 42,
+  "generation_time": "2025-04-14 16:28:14",
+  "tasks": [
+    {
+      "type": "jigsaw",
+      "difficulty": "medium",
+      "output_dir": "jigsaw_puzzle/jigsaw_piece_task_medium",
+      "correct_indices": [
+        1
+      ],
+      "correct_options": [
+        "B"
+      ],
+      "num_pieces": 1
+    },
+    {
+      "type": "multi_piece",
+      "difficulty": "medium",
+      "output_dir": "multi_piece_puzzle/multi_piece_task_medium",
+      "correct_indices": [
+        2,
+        0
+      ],
+      "correct_options": [
+        "C",
+        "A"
+      ],
+      "num_correct": 2
+    },
+    {
+      "type": "fractal",
+      "shape_type": "fractal",
+      "difficulty": "medium",
+      "output_dir": "fractal_fractal/fractal_cutout_task_medium",
+      "correct_indices": [
+        0
+      ],
+      "correct_options": [
+        "A"
+      ],
+      "num_pieces": 1
+    },
+    {
+      "type": "fractal",
+      "shape_type": "corner_cut",
+      "difficulty": "medium",
+      "output_dir": "fractal_corner_cut/fractal_cutout_task_medium",
+      "correct_indices": [
+        1
+      ],
+      "correct_options": [
+        "B"
+      ],
+      "num_pieces": 1
+    },
+    {
+      "type": "fractal",
+      "shape_type": "wave",
+      "difficulty": "medium",
+      "output_dir": "fractal_wave/fractal_cutout_task_medium",
+      "correct_indices": [
+        2
+      ],
+      "correct_options": [
+        "C"
+      ],
+      "num_pieces": 1
+    },
+    {
+      "type": "fractal",
+      "shape_type": "zigzag",
+      "difficulty": "medium",
+      "output_dir": "fractal_zigzag/fractal_cutout_task_medium",
+      "correct_indices": [
+        2
+      ],
+      "correct_options": [
+        "C"
+      ],
+      "num_pieces": 1
+    },
+    {
+      "type": "fractal",
+      "shape_type": "star",
+      "difficulty": "medium",
+      "output_dir": "fractal_star/fractal_cutout_task_medium",
+      "correct_indices": [
+        1
+      ],
+      "correct_options": [
+        "B"
+      ],
+      "num_pieces": 1
+    }
+  ]
+}

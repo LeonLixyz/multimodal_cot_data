@@ -1,0 +1,88 @@
+{
+  "problem_description": "Apply Connectivity to a random_sparse graph. Nodes: 8, Edges: 5.",
+  "algorithm": "Connectivity",
+  "graph_type": "random_sparse",
+  "num_nodes": 8,
+  "num_edges": 5,
+  "is_directed": false,
+  "seed_used": 4577,
+  "image_files": [
+    "step_001_adj_matrix.png",
+    "step_002.png",
+    "step_003.png"
+  ],
+  "solution_summary": {
+    "start_node": null,
+    "result": {
+      "is_connected": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "is_strongly_connected": false,
+      "num_components": 4,
+      "num_strongly_connected_components": 4,
+      "num_weakly_connected_components": 4
+    }
+  },
+  "graph_data": {
+    "adjacency_list": {
+      "0": [
+        6,
+        7
+      ],
+      "1": [
+        2
+      ],
+      "2": [
+        1,
+        6
+      ],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [
+        0,
+        2,
+        7
+      ],
+      "7": [
+        0,
+        6
+      ]
+    },
+    "weighted_adjacency_list": null
+  },
+  "visualization_settings": {
+    "layout": "spring",
+    "theme": "light",
+    "node_shape": "circle",
+    "palette": {
+      "node": "#7ee567",
+      "visited": "#2264cf",
+      "current": "#c0207d",
+      "edge": "#b1bdae",
+      "path": "#f2130f",
+      "cycle": "#FF6347",
+      "mst_edge": "#f2130f",
+      "recursion_stack": "#ADD8E6"
+    },
+    "edge_style": "solid",
+    "size_by_degree": false,
+    "color_edges_by_weight": false
+  }
+}

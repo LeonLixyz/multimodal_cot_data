@@ -1,0 +1,56 @@
+{
+  "task_type": "multi_piece_puzzle",
+  "difficulty": "medium",
+  "num_correct": 2,
+  "original_image": "original.jpg",
+  "masked_image": "masked_image.jpg",
+  "highlighted_targets": "highlighted_targets.jpg",
+  "options": [
+    "option_A.jpg",
+    "option_B.jpg",
+    "option_C.jpg",
+    "option_D.jpg"
+  ],
+  "correct_indices": [
+    2,
+    0
+  ],
+  "correct_options": [
+    "C",
+    "A"
+  ],
+  "grid_size": 4,
+  "cell_width": 1296,
+  "cell_height": 972,
+  "removed_cells": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "test_cells": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "parameters": {
+    "grid_size": 4,
+    "num_pieces_removed": 4,
+    "distractor_difficulty": "medium"
+  },
+  "distractor_strategies": [
+    "correct",
+    "other_cell",
+    "correct",
+    "transform"
+  ]
+}

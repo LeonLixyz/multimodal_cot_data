@@ -1,0 +1,111 @@
+{
+  "problem_description": "Apply DFS_Recursive to a grid graph. Start node: 4. Nodes: 9, Edges: 12.",
+  "algorithm": "DFS_Recursive",
+  "graph_type": "grid",
+  "num_nodes": 9,
+  "num_edges": 12,
+  "is_directed": false,
+  "seed_used": 7115,
+  "image_files": [
+    "step_001.png",
+    "step_002.png",
+    "step_003.png",
+    "step_004.png",
+    "step_005.png",
+    "step_006.png",
+    "step_007.png",
+    "step_008.png",
+    "step_009.png",
+    "step_010.png",
+    "step_011.png",
+    "step_012.png",
+    "step_013.png",
+    "step_014.png",
+    "step_015.png",
+    "step_016.png",
+    "step_017.png",
+    "step_018.png",
+    "step_019.png",
+    "step_020.png",
+    "final_solution.png"
+  ],
+  "solution_summary": {
+    "start_node": 4,
+    "result": [
+      4,
+      1,
+      0,
+      3,
+      6,
+      7,
+      8,
+      5,
+      2
+    ]
+  },
+  "graph_data": {
+    "adjacency_list": {
+      "0": [
+        1,
+        3
+      ],
+      "1": [
+        0,
+        2,
+        4
+      ],
+      "2": [
+        1,
+        5
+      ],
+      "3": [
+        0,
+        4,
+        6
+      ],
+      "4": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "5": [
+        2,
+        4,
+        8
+      ],
+      "6": [
+        3,
+        7
+      ],
+      "7": [
+        4,
+        6,
+        8
+      ],
+      "8": [
+        5,
+        7
+      ]
+    },
+    "weighted_adjacency_list": null
+  },
+  "visualization_settings": {
+    "layout": "spring",
+    "theme": "light",
+    "node_shape": "circle",
+    "palette": {
+      "node": "#f14547",
+      "visited": "#38cf0f",
+      "current": "#0b479b",
+      "edge": "#e0d9d9",
+      "path": "#5733f4",
+      "cycle": "#FF6347",
+      "mst_edge": "#5733f4",
+      "recursion_stack": "#ADD8E6"
+    },
+    "edge_style": "solid",
+    "size_by_degree": false,
+    "color_edges_by_weight": false
+  }
+}

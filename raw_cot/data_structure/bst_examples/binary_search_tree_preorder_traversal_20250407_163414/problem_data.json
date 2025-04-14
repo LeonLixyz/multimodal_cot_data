@@ -1,0 +1,41 @@
+{
+  "problem": "Apply the Preorder Traversal operation on the binary_search_tree.",
+  "images": [
+    "step1.png",
+    "step2.png",
+    "step3.png",
+    "step4.png",
+    "step5.png",
+    "step6.png",
+    "step7.png",
+    "step8.png",
+    "step9.png",
+    "step10.png",
+    "step11.png",
+    "step12.png",
+    "step13.png",
+    "step14.png",
+    "step15.png"
+  ],
+  "solution": {
+    "operation": "Preorder Traversal",
+    "result": {
+      "order": [
+        35,
+        85,
+        36,
+        75,
+        53,
+        84,
+        94
+      ]
+    },
+    "visualization": {
+      "color_scheme": "colorful",
+      "node_shape": "diamond",
+      "edge_style": "solid",
+      "theme": "dark",
+      "show_details": true
+    }
+  }
+}

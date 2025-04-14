@@ -1,0 +1,203 @@
+{
+  "problem_description": "Apply DFS_Recursive to a random_tree graph. Start node: 7. Nodes: 10, Edges: 9.",
+  "algorithm": "DFS_Recursive",
+  "graph_type": "random_tree",
+  "num_nodes": 10,
+  "num_edges": 9,
+  "is_directed": false,
+  "seed_used": 1842,
+  "image_files": [
+    "step_001.png",
+    "step_002.png",
+    "step_003.png",
+    "step_004.png",
+    "step_005.png",
+    "step_006.png",
+    "step_007.png",
+    "step_008.png",
+    "step_009.png",
+    "step_010.png",
+    "step_011.png",
+    "step_012.png",
+    "step_013.png",
+    "step_014.png",
+    "step_015.png",
+    "step_016.png",
+    "step_017.png",
+    "step_018.png",
+    "step_019.png",
+    "step_020.png",
+    "step_021.png",
+    "step_022.png",
+    "final_solution.png"
+  ],
+  "solution_summary": {
+    "start_node": 7,
+    "result": [
+      7,
+      2,
+      0,
+      5,
+      8,
+      3,
+      1,
+      6,
+      9,
+      4
+    ]
+  },
+  "graph_data": {
+    "adjacency_list": {
+      "0": [
+        2,
+        5,
+        8
+      ],
+      "1": [
+        2
+      ],
+      "2": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "3": [
+        8
+      ],
+      "4": [
+        9
+      ],
+      "5": [
+        0
+      ],
+      "6": [
+        2
+      ],
+      "7": [
+        2,
+        9
+      ],
+      "8": [
+        0,
+        3
+      ],
+      "9": [
+        4,
+        7
+      ]
+    },
+    "weighted_adjacency_list": {
+      "0": [
+        [
+          2,
+          15
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "1": [
+        [
+          2,
+          12
+        ]
+      ],
+      "2": [
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          14
+        ]
+      ],
+      "3": [
+        [
+          8,
+          13
+        ]
+      ],
+      "4": [
+        [
+          9,
+          15
+        ]
+      ],
+      "5": [
+        [
+          0,
+          12
+        ]
+      ],
+      "6": [
+        [
+          2,
+          15
+        ]
+      ],
+      "7": [
+        [
+          2,
+          14
+        ],
+        [
+          9,
+          15
+        ]
+      ],
+      "8": [
+        [
+          0,
+          15
+        ],
+        [
+          3,
+          13
+        ]
+      ],
+      "9": [
+        [
+          4,
+          15
+        ],
+        [
+          7,
+          15
+        ]
+      ]
+    }
+  },
+  "visualization_settings": {
+    "layout": "spring",
+    "theme": "light",
+    "node_shape": "circle",
+    "palette": {
+      "node": "#f7f78e",
+      "visited": "#0feec3",
+      "current": "#5d0994",
+      "edge": "#e2e2dc",
+      "path": "#f210c4",
+      "cycle": "#FF6347",
+      "mst_edge": "#f210c4",
+      "recursion_stack": "#ADD8E6"
+    },
+    "edge_style": "solid",
+    "size_by_degree": false,
+    "color_edges_by_weight": false
+  }
+}

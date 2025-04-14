@@ -1,0 +1,47 @@
+{
+  "problem": "Simulate Projectile Motion with the given parameters.",
+  "images": [
+    "initial_conditions.png",
+    "velocity_components.png",
+    "trajectory.png",
+    "kinematics.png",
+    "energy.png",
+    "trajectory_3d.png",
+    "environment_comparison.png"
+  ],
+  "solution": {
+    "initial_conditions": {
+      "initial_velocity": 43.49633254262557,
+      "launch_angle": 51.370506626448744,
+      "initial_height": 0,
+      "environment": "moon",
+      "gravity": 1.62,
+      "air_resistance": false,
+      "drag_coefficient": null
+    },
+    "results": {
+      "max_height": 356.3558167070509,
+      "time_of_flight": 6.94,
+      "horizontal_range": 1139.1090023665306,
+      "energy_conservation": true
+    }
+  },
+  "visualization": {
+    "color_scheme": "monochrome",
+    "theme": "light",
+    "line_style": "dashed",
+    "marker_style": "square",
+    "show_annotations": true,
+    "show_grid": true,
+    "show_forces": true
+  },
+  "environment": {
+    "type": "moon",
+    "gravity": 1.62,
+    "air_resistance": false,
+    "drag_coefficient": null
+  },
+  "additional_info": {
+    "problem_description": "A projectile is launched on moon from an initial height of 0.0 m with an initial velocity of 43.5 m/s at an angle of 51.4\u00b0 above the horizontal. Find the maximum height reached, the time of flight, and the horizontal range of the projectile."
+  }
+}

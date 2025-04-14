@@ -1,0 +1,47 @@
+{
+  "problem": "Simulate Projectile Motion with the given parameters.",
+  "images": [
+    "initial_conditions.png",
+    "velocity_components.png",
+    "trajectory.png",
+    "kinematics.png",
+    "energy.png",
+    "trajectory_3d.png",
+    "environment_comparison.png"
+  ],
+  "solution": {
+    "initial_conditions": {
+      "initial_velocity": 40,
+      "launch_angle": 40,
+      "initial_height": 20,
+      "environment": "mars",
+      "gravity": 3.72,
+      "air_resistance": false,
+      "drag_coefficient": null
+    },
+    "results": {
+      "max_height": 108.85502931735944,
+      "time_of_flight": 5.94,
+      "horizontal_range": 446.4507014497404,
+      "energy_conservation": true
+    }
+  },
+  "visualization": {
+    "color_scheme": "monochrome",
+    "theme": "dark",
+    "line_style": "solid",
+    "marker_style": "circle",
+    "show_annotations": true,
+    "show_grid": true,
+    "show_forces": true
+  },
+  "environment": {
+    "type": "mars",
+    "gravity": 3.72,
+    "air_resistance": false,
+    "drag_coefficient": null
+  },
+  "additional_info": {
+    "problem_description": "A projectile is launched on mars from an initial height of 20.0 m with an initial velocity of 40.0 m/s at an angle of 40.0\u00b0 above the horizontal. Find the maximum height reached, the time of flight, and the horizontal range of the projectile."
+  }
+}
