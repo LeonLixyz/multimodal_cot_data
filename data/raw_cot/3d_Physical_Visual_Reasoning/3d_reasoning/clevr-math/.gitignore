@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.swp
+*.pyc
+output/
+
+stash
+clevr.hf
+preprocessed_data
+question_generation/dataset-data
+test_trainer
+figs
