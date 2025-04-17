@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[version=4]{mhchem}
+
+
+\begin{document}
+\section*{Problem}
+(AMC) If circular arcs \(A C\) and \(B C\) have centers at \(B\) and \(A\), respectively, then there exists a circle tangent to both arcs \(A C\) and \(B C\), and to \(A B\). If the length of arc \(B C\) is 12 , then the circumference of the circle is\\
+(A) 24\\
+(B) 25\\
+(C) 26\\
+(D) 27\\
+(E) 28\\
+\centering
+\includegraphics[width=\textwidth]{images/208.jpg}
+
+\section*{Solution}
+(D).
+Method 1 (official solution):\\
+Construct the circle with center \(A\) and radius \(A B\). Let \(F\) be the point of tangency of the two circles. Draw \(A F\), and let \(E\) be the point of intersection of \(A F\) and the given circle.
+
+By the Power of a Point Theorem, \(A D^{2}=A F \cdot A E\). Let \(r\) be the radius of the smaller circle. Since \(A F\) and \(A B\) are radii of the larger circle, \(A F=A B\) and \(A E=A F-E F=A B-2 r\). Because \(A D=A B / 2\), substitution into the first equation yields \((A B / 2)^{2}=\) \(A B \cdot(A B-2 r)\); or, equivalently, \(r / A B=3 / 8\). Points \(A, B\), and \(C\)\\
+\includegraphics[width=\textwidth]{images/212.jpg} are equidistant from each other, so arc \(B C=60^{\circ}\) and thus the
+
+
+circumference of the larger circle is \(6 \cdot(\) length of arc \(B C)=6 \cdot 12\).\\
+Let \(c\) be the circumference of the smaller circle. Since the circumferences of the two circles are in the same ratio as their radii, \(c / 72=r / A B=3 / 8\). Therefore \(c=\) \((3 / 8) \cdot 72=27\).
+
+Method 2 (our solution):\\
+Construct the circles with centers \(A\) and \(B\) with radius \(A B\). Triangle \(A B C\) is an equilateral triangle.\\
+For circle \(A\), we have \(\frac{2 \pi r}{360}=\frac{A B}{60} \Rightarrow A B=\frac{36}{\pi}\).\\
+Extend \(A O\) to \(D . A D=A B\). Draw \(O E \perp A B\) at \(E\). \(A E\) \(=6\).
+
+Applying Pythagorean Theorem to triangle \(A O E\),\\
+\centering
+\includegraphics[width=\textwidth]{images/213.jpg}\\
+\(r^{2}=A O^{2}-A E^{2}=(A D-r)^{2}-\left(\frac{1}{2} A B\right)^{2}\)\\
+\(=(A B-r)^{2}-\left(\frac{1}{2} A B\right)^{2}\)\\
+\(r=\frac{3 A B}{8}=\frac{3 \times 36}{8 \pi}=\frac{27}{2 \pi}\). The circumference is \(2 \pi r=2 \pi \times \frac{27}{2 \pi}=27\).
+
+\end{document}
