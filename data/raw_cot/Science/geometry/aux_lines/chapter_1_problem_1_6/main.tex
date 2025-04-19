@@ -5,25 +5,31 @@
 \usepackage{hyperref}
 \usepackage[version=4]{mhchem}
 
+\title{Problem 6}
+\date{}
 
 \begin{document}
+\maketitle
+
 \section*{Problem}
 In \(\triangle A B C, \angle B=2 \angle A\) and \(A B=2 B C\). Show that \(A B^{2}=A C^{2}+B C^{2}\).\\
 \centering
-\includegraphics[width=\textwidth]{images/016.jpg}
+\includegraphics[width=\textwidth]{images/problem_image_1.jpg}
 
 \section*{Solution}
-(D).\\
-Method 1 (official solution):\\
+Since \(A B>B C, \angle C>\angle A\).\\
+Draw \(C D\) to meet \(A B\) at \(D\) such that \(\angle A C D=\angle A\).\\
+\(\triangle A D C\) is an isosceles triangle and \(A D=D C\).\\
+\(\angle C D B=\angle A C D+\angle A=2 \angle A=\angle B\)\\
 \centering
-\includegraphics[width=\textwidth]{images/093(2).jpg}
+\includegraphics[width=\textwidth]{images/reasoning_image_1.jpg}
 
+Therefore, \(\triangle B C D\) is also an isosceles triangle, and so \(D C=B C\).\\
+\(A B=A D+D B=2 B C\)\\
+\(\Rightarrow \quad A D+D B=2 D C=2 A D\)\\
+\(\Rightarrow \quad A D=D B=D C\).
 
-In the adjoining figure \(M V\) is an altitude of \(\triangle A M V\) ( \(30^{\circ}-60^{\circ}-90^{\circ}\) triangle), and \(M V\) has length \(2 \sqrt{3}\). The required area of triangle \(A B V\) is \(\frac{1}{2}(A B)(M V)\)\\
-\(=\frac{1}{2} \times 12 \times 2 \sqrt{3}=12 \sqrt{3}\).
-
-Method 2 (our solution):\\
-In the adjoining figure we draw \(E F\), an altitude of \(\triangle A E B\). \(E F\) divides the figure into four congruent triangles. Since \(\triangle A B C\) is a \(30^{\circ}-60^{\circ}-90^{\circ}\) triangle, thus \(A B=\) \(12, A C=6\) and \(B C=6 \sqrt{3}\). The area of \(\triangle A B C\) is \(\frac{1}{2}(A C)(B C)=\frac{1}{2} \times 6 \times 6 \sqrt{3}\) \(=18 \sqrt{3}\).\\
-The required area of triangle \(A B E\), therefore is \(\frac{2}{3} \times 18 \sqrt{3}=12 \sqrt{3}\).
+This tells us that \(D C\) is the median of right triangle \(A B C\) with \(\angle C=90^{\circ}\).\\
+By the Pythagorean Theorem, we have \(A B^{2}=A C^{2}+B C^{2}\).
 
 \end{document}

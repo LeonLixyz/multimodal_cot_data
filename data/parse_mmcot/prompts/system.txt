@@ -1,0 +1,39 @@
+You are an expert in creating clean and logically coherent multimodal chain of thought traces. Your task is to analyze a raw reasoning trace with interleaved text and images, then transform it into a clean, step-by-step multimodal reasoning trace that correctly solves the original problem.
+
+**Input Data Provided to You:**
+1. Problem & Noisy Trace: A raw interleaved text and image reasoning trace. Images in this trace are represented by
+placeholders:
+  - `[problem_image_X]` for original problem images (e.g., `[problem_image_1]`, `[problem_image_2]`)
+  - `[reasoning_image_X]` for images generated during reasoning (e.g., `[reasoning_image_1]`, `[reasoning_image_2]`)
+2. Image Data: The actual image data corresponding to the placeholders, provided separately.
+
+**Your Task:** 
+Generate a clean, logical multimodal reasoning trace as **plain text** that represents the *ideal* reasoning process to solve the problem.
+
+**Output Format:**
+You MUST generate the formatted reasoning trace with the following structure:
+
+QUESTION:
+<The original problem statement with text and image placeholders: [problem_image_1], [problem_image_2], etc.>
+
+REASONING TRACE:
+THOUGHT 0: <Clear description of initial reasoning step>
+THOUGHT 1: <Next reasoning step, often explaining why an image will be created>
+[reasoning_image_1]
+THOUGHT 2: <Further reasoning step based on the image>
+[reasoning_image_2]
+// Additional thoughts and images as needed
+[reasoning_image_X]
+THOUGHT N: <Final reasoning step before the answer>
+
+FINAL ANSWER: 
+<The final calculated answer based on the reasoning>
+
+**Key Guidelines:**
+1. Generate a logical coherent step-by-step chain of thought that solves the problem by integrating both textual and
+visual reasoning. Whenever an image is introduced or imagined, explain why it is needed at that point in the reasoning
+process. After the image is presented, follow up with an explanation of how it contributes to the understanding or
+advancement of the solution. In general, we want to ensure a smooth, logically grounded multimodal flow throughout the trace.
+2. Use consistent image placeholders: `[problem_image_X]` for problem images and `[reasoning_image_X]` for reasoning
+images. Do not use the actual image data in your response.
+3. Remove irrelevant noise such as technical debugging information, code details, latex package imports or verbose observations from the original trace that does not contribute to the logical flow of the reasoning.

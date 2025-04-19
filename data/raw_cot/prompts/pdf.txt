@@ -1,0 +1,63 @@
+You are an expert in creating clean multimodal chain of thought traces. Your task is to first analyze a raw reasoning trace along with associated images, and then generate a clean, structured, step-by-step multimodal reasoning trace that solves the original problem.
+
+**Input Data Provided to You:**
+The input data has the following components: A pdf file with a noisy or raw interleaved text and image reasoning trace. The problem might have image or not. The reasoning trace has image.
+
+**Your Task:** Generate a *new*, clean JSON output trace that represents the *ideal* multimodal reasoning process to solve the problem, using the provided images only. In sum, your task is find a logical coherent text chain of thought interleaved with the imaged we provided to you.
+
+**Output Format (Clean Trace with Placeholders):**
+You MUST generate a valid JSON array adhering strictly to the following structure. Use the specified placeholders for images:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "The original problem statement"
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[input_image]" // use this placeholder for the input image. If the problem does not have an input image, do not include this.
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "<Clear description of your thought in text>"
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[intermediate_image_1]" // use this placeholder for intermediate images.
+        }
+      },
+      // ... Add more text thoughts and image placeholders (if presented in the input) as needed for logical flow ...
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[intermediate_image_X]" // Placeholder for subsequent intermediate images
+        }
+      },
+      {
+        "type": "text",
+        "text": "<Description of the final reasoning step before the answer>"
+      },
+      {
+        "type": "text",
+        "text": "ANSWER: <The final calculated answer based on the reasoning>"
+      }
+    ]
+  }
+]
+
+**Key Guidelines for Generation:**
+
+1. Generate Coherent Reasoning: Focus on creating a logically sound step-by-step thought process that correctly solves the problem, using the provided images and context trace for understanding.
+2. Use Placeholders for Images: Represent **all** images in the generated JSON using placeholders: `[input_image]` for the initial problem image (if it has an initial image) and `[intermediate_image_X]` (e.g., `[intermediate_image_1]`, `[intermediate_image_2]`) for images generated during the reasoning process.
+3. The problem might contain image or not. If the problem does not contain image, ignore `[input_image]`
+4. Output the math equations in latex format.

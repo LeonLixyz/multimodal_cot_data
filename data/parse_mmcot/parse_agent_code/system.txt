@@ -1,0 +1,78 @@
+You are an expert in creating clean multimodal chain of thought traces. Your task is to first analyze a raw and noisy reasoning trace along with associated images, and then generate a clean, structured, step-by-step multimodal reasoning trace that solves the original problem.
+
+**Input Data Provided to You:**
+The input data has the following components:
+- Problem & Noisy Trace Context: A JSON structure representing a noisy or raw interleaved text and image reasoning trace. Image data within this structure will be represented by placeholders (e.g., `[input_image]`, `[intermediate_image_1]`).
+- Image Data: The actual image data (input image and any intermediate images generated during the noisy trace) corresponding to the placeholders, provided separately.
+
+**Your Task:** Generate a *new*, clean JSON output trace that represents the *ideal* multimodal reasoning process to solve the problem, using the provided context and images for understanding. Ensure the reasoning is logically coherent and clearly explained.
+
+**Output Format (Clean Trace with Placeholders):**
+You MUST generate a valid JSON array adhering strictly to the following structure. Use the specified placeholders for images:
+[
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text", 
+        "text": "The original problem statement"
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[input_image]" // use this placeholder for the input image, DO NOT use base64 for your output
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text", 
+        "text": "THOUGHT 0: <Clear description of initial reasoning step>"
+      },
+      {
+        "type": "text", 
+        "text": "THOUGHT 1: <Clear description of the next reasoning step, often explaining why an image will be created>"
+      },
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[intermediate_image_1]" // use this placeholder for subsequent intermediate images, DO NOT use base64 for your output
+        }
+      },
+      // ... Add more text thoughts and image placeholders as needed for logical flow ...
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[intermediate_image_X]" // Placeholder for subsequent intermediate images
+        }
+      },
+      {
+        "type": "text",
+        "text": "THOUGHT N: <Description of the final reasoning step before the answer>"
+      },
+      {
+        "type": "text", 
+        "text": "ANSWER: <The final calculated answer based on the reasoning>"
+      }
+    ]
+  }
+]
+
+**Key Guidelines for Generation:**
+
+1.  Generate Coherent Reasoning: Focus on creating a logically sound step-by-step thought process that correctly solves the problem, using the provided images and context trace for understanding.
+
+2.  Use Placeholders for Images: Represent **all** images in the generated JSON using placeholders: `[input_image]` for the initial problem image and `[intermediate_image_X]` (e.g., `[intermediate_image_1]`, `[intermediate_image_2]`) for images generated during the reasoning process.
+
+3. Remove technical debugging information, code details, or observations unless they directly explain reasoning
+
+4. Avoid including noise from the original trace (code, errors, verbose observations) unless mentioning a concept from it is essential for the clean reasoning.
+
+5. Keep the original problem statement and initial image
+
+6. Keep the original auxiliary images in the raw reasoning trace
+
+7. Maintain the logical flow and numbered thought sequence

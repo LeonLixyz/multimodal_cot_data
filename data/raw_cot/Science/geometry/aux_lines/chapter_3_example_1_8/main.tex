@@ -5,17 +5,21 @@
 \usepackage{hyperref}
 \usepackage[version=4]{mhchem}
 
+\title{Example 8}
+\date{}
 
 \begin{document}
+\maketitle
+
 (AIME I) In triangle \(A B C, A B=125, A C=117\) and \(B C=120\). The angle bisector of angle \(A\) intersects \(B C\) at point \(L\), and the angle bisector of angle \(B\) intersects \(A C\) at point \(K\). Let \(M\) and \(N\) be the feet of the perpendiculars from \(C\) to \(B K\) and \(A L\), respectively. Find \(M N\).\\
 \centering
-\includegraphics[width=\textwidth]{images/059(2).jpg}
+\includegraphics[width=\textwidth]{images/problem_image_1.jpg}
 
 Solution: 56.\\
 Extend \(M N\) such that it intersects lines \(A C\) and \(B C\) at point \(O\) and \(Q\), respectively. Extend \(C M\) to meet \(A B\) at, say, \(S\). then triangle \(B C M\) and triangle \(B S M\) are congruent. Hence \(B S=B C=120\).\\
 Similarly, extend \(C N\) to meet \(A B\) at, say, \(R\), and triangle \(A C N\) and triangle \(A R N\) are congruent. Hence \(A R=A C=\) 117. So \(C M=M S\), and \(C N=N R\). So \(M N\) is the midline of triangle \(C S R\) (and \(O Q\) is the midline of \(A B\) ).\\
 \centering
-\includegraphics[width=\textwidth]{images/059.jpg}
+\includegraphics[width=\textwidth]{images/reasoning_image_1.jpg}
 
 \(M N=\frac{A B}{2}-\frac{A S}{2}-\frac{B R}{2}=\frac{A B}{2}-\frac{A B-B S}{2}-\frac{A B-A R}{2}\)\\
 \(=\frac{B S}{2}+\frac{A R}{2}-\frac{A B}{2}=\frac{B C+A C-A B}{2}=\frac{120+117-125}{2}=56\)

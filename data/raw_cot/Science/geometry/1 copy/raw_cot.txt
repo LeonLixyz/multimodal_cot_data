@@ -1,0 +1,21 @@
+Draw the median $M C$. Since $M C$ is the median, $M C=$ $A M=M B$.
+$30^{\circ}$
+$A$
+
+Triangle $A M C$ is an isosceles triangle with $\angle M A C=\angle M C A=30^{\circ}$.
+Since $\angle B M C$ is the exterior angle of triangle $A M C$,
+
+$$
+\angle B M C=\angle M A C+\angle M C A=30^{\circ}+30^{\circ}=60^{\circ} .
+$$
+
+
+So, triangle $M B C$ is an equilateral triangle with $B C=$
+
+$$
+M C=M B
+$$
+
+$30^{\circ}$
+
+That is $B C=\frac{1}{2} A B$.

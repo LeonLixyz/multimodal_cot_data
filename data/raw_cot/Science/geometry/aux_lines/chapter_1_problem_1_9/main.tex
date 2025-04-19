@@ -5,27 +5,26 @@
 \usepackage{hyperref}
 \usepackage[version=4]{mhchem}
 
+\title{Problem 9}
+\date{}
 
 \begin{document}
+\maketitle
+
 \section*{Problem}
 Both \(\triangle A B C\) and \(\triangle A D C\) are right triangles sharing the hypotenuse \(A C\) with \(\angle A B C=\angle A D C=90^{\circ}\). Points \(M\) and \(n\) are the midpoints on sides \(A C\) and \(B D\), respectively. Show that \(M N \perp B D\).\\
 \centering
-\includegraphics[width=\textwidth]{images/016(3).jpg}
+\includegraphics[width=\textwidth]{images/problem_image_1.jpg}
 
 \section*{Solution}
-(D).\\
-\(\triangle A B D\) is 3:4:5 right triangle. Since \(B D=25, A D=15\), and \(A B=20\).\\
-We know that\\
-\(C D^{2}=B D \times D E \Rightarrow \quad 20^{2}=25 \times D E \Rightarrow \quad D E=16\)
+Draw \(M B\), the median of triangle \(A B C\). Since \(M B\) is the median, by Theorem 1.3, \(M B=M A=M C\)
 
-Draw \(A F \perp B D\). \(\frac{A F \times B D}{2}=\frac{A D \times A B}{2}\)\\
+Draw \(M D\), the median of triangle \(A D C\). Since \(M D\) is the median, by Theorem 1.3, \(M D=M A=M C\). So \(M B=M D\).\\
 \centering
-\includegraphics[width=\textwidth]{images/095.jpg}
+\includegraphics[width=\textwidth]{images/reasoning_image_1.jpg}
 
-\[
-\Rightarrow \frac{A F \times 25}{2}=\frac{15 \times 20}{2} \Rightarrow A F=12
-\]
 
-The area of \(\triangle A D E\) is \(\frac{A F \times E D}{2}=\frac{12 \times 20}{2}=120\).\\
+Since \(M B=M D\) and \(B N=N D, M N\) is the perpendicular bisector of \(B D\).\\
+Thus \(M N \perp B D\).
 
 \end{document}
